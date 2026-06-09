@@ -1,0 +1,3 @@
+SECRET_KEY = 'TROCAR'
+DEBUG = True
+ALLOWED_HOSTS: list[str] = []

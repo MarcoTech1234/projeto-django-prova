@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<title>{{ site_title }}Agenda</title>
+
+{% include 'global/partials/_head.html' %}
+
+
+<body>
+    {% include 'global/partials/_header.html' %}
+
+    <main class="content">
+        {% block content %}{% endblock content %}
+        {% include 'global/partials/_paginator.html' %}
+    </main>
+</body>
+
+</html>
